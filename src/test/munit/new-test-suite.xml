@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     </spring:beans>
     <munit:test name="new-test-suite-mulecicdFlowTest" description="Test">
         <flow-ref name="mulecicdFlow" doc:name="Flow-ref to mulecicdFlow"/>
-        <munit:assert-on-equals message="Expected #[&quot;MuleCICD&quot;] but i got #[flowVars.str]" expectedValue="#[&quot;MuleCICD&quot;]" actualValue="#[flowVars.str]" doc:name="Assert Equals"/>
+        <munit:assert-on-equals message="Expected #[&quot;MuleCICD&quot;] but i got #[flowVars.str]" expectedValue="#[&quot;MuleCICDD&quot;]" actualValue="#[flowVars.str]" doc:name="Assert Equals"/>
     </munit:test>
 </mule>
